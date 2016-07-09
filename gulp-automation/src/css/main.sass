@@ -7,6 +7,7 @@
 
 //----------------------------------- VARIABLES
 
+$black: #000;
 $blue: #409ACA;
 $white: #FFF;
 $gray: #ddd;
@@ -34,7 +35,43 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 //----------------------------------- FORMS
 //----------------------------------- MEDIAQUERIES
 
+.slider
+  position: relative
+  .item
+    background-color: #eee
+  &--caption
+    padding: 100px 0
+    text-align: center
+    h3
+      font-size: 3.5rem
+      margin: 15px 0
+    h5
+      font-size: 2rem
+      margin-bottom: 3rem
 
-.item
-  height: 200px
-  background-color: red
+.featured-item
+  padding: 0 60px
+  .material-icons
+    font-size: 80px
+  &__title
+    font-size: 30px
+    margin: 15px 0
+.section 
+  &--padding
+    padding: 35px 0
+  &__title
+    font-size: 50px
+    position: relative
+    margin-bottom: 60px
+    color: $black
+    text-transform: uppercase
+    &:after
+      content: ""
+      position: absolute
+      bottom: -15px
+      left: 50%
+      margin-left: -100px
+      width: 200px
+      height: 3px
+      background-color: $black
+
