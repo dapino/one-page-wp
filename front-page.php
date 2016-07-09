@@ -10,9 +10,8 @@
         <li><a href="#featured">Featured</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contacto</a></li>
         <li><a href="#"><i class="material-icons">search</i></a></li>
-        <li><a class="waves-effect waves-light btn">A button</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="#main-slider">Home</a></li>
@@ -176,6 +175,7 @@
 <!-- /Blog -->
 
 <!-- Contact -->
+<!--
 <section class="section section--padding" id="contact">
   <div class="container">
     <div class="row">
@@ -243,9 +243,77 @@
     </div>
   </div>
 </section>
+-->
 <!-- /Contact -->
 
 
+  <!-- Modal Structure -->
+<div id="modal1" class="modal bottom-sheet">
+  <div class="modal-content">
+    <div class="container">
+      <div class="row">
+      
+        <form class="col m7 s12">
+          <div class="row">
+            <div class="input-field col l6 s12">
+              <input placeholder="Name" id="first_name" type="text" class="validate">
+            </div>
+            <div class="input-field col l6 s12">
+              <input placeholder="Email" id="email" type="email" class="validate">
+            </div>
+            <div class="input-field col s12">
+              <input placeholder="Subject" id="subject" type="text" class="validate">
+            </div>
+            <div class="input-field col s12">
+              <textarea placeholder="Message" id="textarea1" class="materialize-textarea"></textarea>
+            </div>
+          </div>
+          <div class="row center-align">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+        <div class="col m4 s12 offset-m1">
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <img src="images/yuna.jpg" alt="" class="circle">
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle">folder</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle green">insert_chart</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle red">play_arrow</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Products -->
 <!-- /Products -->
 
